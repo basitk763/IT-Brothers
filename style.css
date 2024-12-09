@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-column{
+    background: linear-gradient(137deg, rgba(255, 255, 255, 1) 0%, rgba(59, 190, 213, 1) 38%, rgba(19, 83, 146, 1) 97%) ! IMPORTANT;
+}
+.navbar{
+   
+    padding-left: 20px;
+    height: 100%px;
+    width: 100%;
+}
+.nav-link{
+    color: white;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    font-weight: 700;
+}
+#header-img{
+    height: 120px;
+    width: 240px;
+    padding-left: 80px;
+} 
+@media only screen and (max-width: 580px){
+    #header-img{
+        margin-right: 130px;
+    }   
+}
+.intro h3{
+    color: #083573;
+    font-weight: 800;
+}
+.btn1{
+    height: 50px;
+    width: 200px;
+    background-color: #44d7f0;
+    border: none;
+    color: white;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.manDiv{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+@media only screen and (max-width: 580px){
+    .manDiv{
+        margin: auto;
+    }
+}
+.card1{
+    height: 250px;
+    font-weight: 500;
+    width: 400px;
+    background-color: #346ebe;
+    color: white;
+    box-shadow: 6px 11px 36px -12px rgba(0,0,0,0.91);
+   -webkit-box-shadow: 6px 11px 36px -12px rgba(0,0,0,0.91);
+   -moz-box-shadow: 6px 11px 36px -12px rgba(0,0,0,0.91);
+}
+.card1:hover{
+    background-color: #15468c;
+}
+.card1 img{
+    height: 100px;
+    width: 100px;
+}
+@media only screen and (max-width: 580px){
+    .card1{
+        margin: auto;
+    }
+}
+
+.card2{
+    height: 250px;
+    width: 400px;
+    font-weight: 500;
+    margin-top: 70px;
+    background-color: white;
+    color: #45b6c6;
+    box-shadow: 6px 11px 36px -12px rgba(0,0,0,0.91);
+   -webkit-box-shadow: 6px 11px 36px -12px rgba(0,0,0,0.91);
+   -moz-box-shadow: 6px 11px 36px -12px rgba(0,0,0,0.91);
+}
+.card2:hover{
+    background-color: ivory;
+}
+
+.card2 img{
+    height: 100px;
+    width: 100px;
+}
+@media only screen and (max-width: 580px){
+    .card2{
+        margin: auto;
+    }
+}
+.card3{
+    height: 250px;
+    width: 400px;
+    font-weight: 500;
+    background-color:#e2fbff;
+    color: #1ba6b9;
+    box-shadow: 6px 11px 36px -12px rgba(0,0,0,0.91);
+   -webkit-box-shadow: 6px 11px 36px -12px rgba(0,0,0,0.91);
+   -moz-box-shadow: 6px 11px 36px -12px rgba(0,0,0,0.91);
+}
+.card3:hover{
+    background-color: #d8f9ff;
+    color:#1ba6b9;
+}
+.card3 img{
+    height: 100px;
+    width: 100px;
+}
+@media only screen and (max-width: 580px){
+    .card3{
+        margin: auto;
+    }
+}
+.contact h1{
+    color:#0f4a8b;
+    font-weight: 900;
+}
+.form-control{
+    width: 100% !important;
+    background:  #c2f1ee !important;
+    border: none !important;
+   border-radius: 1px solid #8ceee8 !important;
+}
+#btn2{
+    height: 40px;
+    width: 100px;
+    border: none;
+    display: block;
+    font-weight: 800;
+    color: white;
+    background-color: #27CFC3;
+}
+.footer{
+    width: 100%;
+    height: 420px;
+    background-color: #c2f1ee;
+    margin-top: 120px;
+}
+.footer img{
+    height: 200px;
+    width: 400px;
+}
+@media only screen and (max-width: 580px){
+    .footer-text{
+        margin: auto;
+    }
+}
+.consulting{
+    background: #e2fbff;
+
+}
+.digi-info{
+    display: flex;
+}
+.info1{
+    height: 150px;
+    width: 100px;
+}
+.manDiv1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 30px;
+}
+.consulting h1{
+   color:  #0f4a8b;
+   font-weight: 900;
+   margin-bottom: 30px;
+}
+#consulting-img{
+    height: 500px;
+}
+@media only screen and (max-width: 580px){
+    #consulting-img{
+        margin: auto;
+        height: 350px;
+    }
+}
+.card4{
+    background-color: azure;
+    height: 250px;
+    width: 300px;
+    border-radius: 0px 30px 0px 30px;    
+}
+@media only screen and (max-width: 580px){
+    .card4{
+        margin: auto;
+    }
+}
+.card4 img{
+    padding-left: 8px;
+    height: 80px;
+}
+
+.card5{
+    background-color: azure;
+    height: 250px;
+    width: 300px;
+    border-radius: 0px 30px 0px 30px;
+}
+.card5 img{
+    padding-left: 8px;
+    height: 80px;
+}
+@media only screen and (max-width: 580px){
+    .card5{
+        margin: auto;
+    }
+}
+.card6{
+    background-color: azure;
+    height: 250px;
+    width: 300px;
+    border-radius: 0px 30px 0px 30px;
+}
+.card6 img{
+    padding-left: 8px;
+    height: 80px;
+}
+@media only screen and (max-width: 580px){
+    .card6{
+        margin: auto;
+    }
+}
+.card7{
+    background-color: azure;
+    height: 250px;
+    width: 300px;
+    border-radius: 0px 30px 0px 30px;
+}
+.card7 img{
+    padding-left: 8px;
+    height: 80px;
+}
+@media only screen and (max-width: 580px){
+    .card7{
+        margin: auto;
+    }
+}
+.cloud h1{
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #0f4a8b;
+}
+.card8{
+    height: 250px;
+    width: 300px;
+    margin-bottom: 10px;
+    background-color: #d5f4f1;
+    border-radius: 0px 30px 0px 30px;
+}
+.card8 img{
+    padding-left: 8px;
+    height: 80px;
+}
+@media only screen and (max-width: 580px){
+    .card8{
+       margin: auto;
+    }
+}
+.card9{
+    height: 250px;
+    width: 300px;
+    margin-bottom: 10px;
+    background-color: #d5f4f1;
+    border-radius: 0px 30px 0px 30px;
+}
+.card9 img{
+    height: 80px;
+    padding-left: 8px;
+}
+@media only screen and (max-width: 580px){
+    .card9{
+       margin: auto;
+    }
+}
+.card10{
+    height: 250px;
+    width: 300px;
+    background-color: #d5f4f1;
+    border-radius: 0px 30px 0px 30px;
+}
+.card10 img{
+    padding-left: 8px;
+    height: 80px;
+}
+@media only screen and (max-width: 580px){
+    .card10{
+        margin: auto;
+    }
+}
+.manDiv2{
+    display: flex;
+    display: block;
+    gap: 20px;
+}
